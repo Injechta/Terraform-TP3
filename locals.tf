@@ -3,7 +3,7 @@ locals {
   address_space  = "10.1.0.0/16"
   location       = "westeurope"
   resource_group = "Gregory_E"
-  subnet_count    = 2
+  subnet_count   = 2
 
   tags = {
     TP       = "terraform-azure-vnet-dynamic"
